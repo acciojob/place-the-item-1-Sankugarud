@@ -1,22 +1,21 @@
 
 
-.container{
-	display: grid;
-	 justify-content: space-between;
-	grid-template-columns: repeat(auto-fill, 105px);
+.holder{
+	
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
 	
 }
 .first{
-	display: flex;
-	justify-content: space-between;
+	
 	border: 1px solid black;
 	background-color: red;
 	height: 100px;
 	width: 100px;
 }
 /* .second{
-	display: grid;
-	justify-content: space-between;
+	
 	border: 1px solid black;
 	background-color: red;
 	height: 100px;
